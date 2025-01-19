@@ -15,7 +15,7 @@ document.querySelector('#app').innerHTML = `
 
   <section class="hero">
     <div class="hero-logo">
-      <img src="/logo-v7.png" alt="SirenAI Large Logo" class="hero-logo-image">
+      <img src="/logo-v8.png" alt="SirenAI Large Logo" class="hero-logo-image">
     </div>
     <h1>Open Source LLM Frontend</h1>
     <p>A Flutter-based reconstruction of SillyTavern. Delivering enhanced performance, improved security, and elegant user experience.</p>
