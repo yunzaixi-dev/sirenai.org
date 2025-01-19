@@ -2,7 +2,10 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <header class="header">
-    <a href="/" class="logo">SirenAI</a>
+    <a href="/" class="logo">
+      <img src="/logo-v8.png" alt="SirenAI Logo" class="logo-image">
+      SirenAI
+    </a>
     <nav class="nav-links">
       <a href="https://docs.sirenai.org" class="nav-link">Docs</a>
       <a href="https://github.com/yunzaixi-dev/sirenai" class="nav-link">GitHub</a>
