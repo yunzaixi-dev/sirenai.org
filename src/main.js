@@ -1,49 +1,69 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <div class="container">
-    <section class="hero">
-      <div class="hero-content">
-        <h1>SirenAI</h1>
-        <p>Next Generation AI Assistant - A Fork of SillyTavern with Enhanced Performance, Security, and User Experience</p>
-        <a href="https://github.com/yunzaixi-dev/sirenai" class="cta-button">View on GitHub</a>
-      </div>
-    </section>
+  <header class="header">
+    <a href="/" class="logo">SirenAI</a>
+    <nav class="nav-links">
+      <a href="https://docs.sirenai.org" class="nav-link">Docs</a>
+      <a href="https://github.com/yunzaixi-dev/sirenai" class="nav-link">GitHub</a>
+      <a href="https://discord.gg/mBD77vwUCB" class="nav-link">Community</a>
+    </nav>
+  </header>
 
-    <section class="features">
-      <div class="features-grid">
-        <div class="feature-card">
-          <h3>🚀 Enhanced Performance</h3>
-          <p>100% Flutter-based reconstruction for significantly improved speed and responsiveness</p>
-        </div>
-        <div class="feature-card">
-          <h3>🔒 Improved Security</h3>
-          <p>Client-side processing and enhanced security measures to protect your data</p>
-        </div>
-        <div class="feature-card">
-          <h3>💫 Better UX</h3>
-          <p>Redesigned user interface for a more intuitive and enjoyable experience</p>
-        </div>
-        <div class="feature-card">
-          <h3>🔄 Maximum Compatibility</h3>
-          <p>Maintains compatibility with existing features while introducing improvements</p>
-        </div>
-      </div>
-    </section>
+  <section class="hero">
+    <h1>Open Source LLM Frontend</h1>
+    <p>A Flutter-based reconstruction of SillyTavern. Delivering enhanced performance, improved security, and elegant user experience.</p>
+    <div class="cta-buttons">
+      <a href="https://docs.sirenai.org" class="button button-primary">Get Started</a>
+      <a href="https://github.com/yunzaixi-dev/sirenai" class="button button-secondary">View Source</a>
+    </div>
+  </section>
 
-    <section class="features">
-      <div class="features-grid">
-        <div class="feature-card">
-          <h3>🌏 Community-Driven</h3>
-          <p>Supported by LeiNao and SiRen communities</p>
-          <a href="https://discord.gg/mBD77vwUCB" class="cta-button">Join Discord</a>
-        </div>
-        <div class="feature-card">
-          <h3>📚 Open Source</h3>
-          <p>Licensed under AGPL-3.0, free and open for community contributions</p>
-          <a href="https://docs.sirenai.org" class="cta-button">Read Docs</a>
-        </div>
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🚀</div>
+        <h3>Performance Optimized</h3>
+        <p>Complete Flutter reconstruction for significantly improved speed and responsiveness</p>
       </div>
-    </section>
-  </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Security First</h3>
+        <p>Client-side core logic processing with enhanced data security and privacy protection</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💫</div>
+        <h3>Elegant Experience</h3>
+        <p>Newly designed user interface for more intuitive and enjoyable interactions</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔄</div>
+        <h3>Perfect Compatibility</h3>
+        <p>Maintaining compatibility with existing features while introducing innovations</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="community">
+    <h2>Join Our Community</h2>
+    <div class="community-links">
+      <a href="https://discord.gg/bNmEB4SK9h" class="community-link">LeiNao Community</a>
+      <a href="https://discord.gg/f6VfJU86SQ" class="community-link">NiRen Community</a>
+      <a href="https://discord.gg/mBD77vwUCB" class="community-link">Development Community</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <div>
+        <a href="https://docs.sirenai.org/en/">English</a>
+        <a href="https://docs.sirenai.org/zh/">中文</a>
+      </div>
+      <div>
+        <a href="https://github.com/yunzaixi-dev/sirenai/blob/main/LICENSE">License</a>
+        <a href="https://github.com/yunzaixi-dev/sirenai/graphs/contributors">Contributors</a>
+        <a href="https://github.com/yunzaixi-dev/sirenai/issues">Issues</a>
+      </div>
+    </div>
+  </footer>
 `
